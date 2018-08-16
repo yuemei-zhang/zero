@@ -3,7 +3,7 @@
 data borrow;
 set policy.tmp_xq_zhice_target_1;run;
 
-proc import datafile='&dir.\副本前隆金融交付结果.xlsx' out=vars;
+proc import datafile='&dir.\金融交付结果.xlsx' out=vars;
 sheet='提数结果';
 run;
 
